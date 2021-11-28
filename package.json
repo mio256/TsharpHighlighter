@@ -1,0 +1,25 @@
+{
+    "name": "tsharplanguage-color",
+    "displayName": "tsharplanguage_color",
+    "description": "tsharp language highlight",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.62.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "tsharp",
+            "aliases": ["tsharp", "tsharp"],
+            "extensions": [".t#"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "tsharp",
+            "scopeName": "source.tsharp",
+            "path": "./syntaxes/tsharp.tmLanguage.json"
+        }]
+    }
+}
