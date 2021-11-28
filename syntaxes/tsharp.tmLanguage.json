@@ -7,13 +7,37 @@
 		},
 		{
 			"include": "#strings"
+		},
+		{
+			"include": "#functions"
+		},
+		{
+			"include": "#numeric"
+		},
+		{
+			"include": "#boolean"
+		},
+		{
+			"include": "#values"
+		},
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#operators"
 		}
 	],
 	"repository": {
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.tsharp",
-				"match": "\\b(if|while|for|return)\\b"
+				"match": "\\b(if|do|for|end|else)\\b"
+			}]
+		},
+		"functions": {
+			"patterns": [{
+				"name": "support.function.tsharp",
+				"match": "\\b(block|call)\\b"
 			}]
 		},
 		"strings": {
@@ -26,6 +50,30 @@
 					"match": "\\\\."
 				}
 			]
+		},
+		"numeric": {
+			"patterns": [{
+				"name": "constant.numeric.tsharp",
+				"match": "(0x[0-9a-fA-F]+|[0-9]+(\\.[0-9]+)?)"
+			}]
+		},
+		"boolean": {
+			"patterns": [{
+				"name": "constant.language.boolean.tsharp",
+				"match": "\\b(true|false)\\b"
+			}]
+		},
+		"comments": {
+			"patterns": [{
+				"name": "comment.line.number-sign.tsharp",
+				"match": "#.*$"
+			}]	
+		},
+		"operators": {
+			"patterns": [{
+				"name": "variable.language.tsharp",
+				"match": "\\b(push|drop|exit|print|swap)\\b"
+			}]
 		}
 	},
 	"scopeName": "source.tsharp"
