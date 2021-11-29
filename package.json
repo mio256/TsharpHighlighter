@@ -1,6 +1,7 @@
 {
     "name": "tsharplanguage-color",
     "displayName": "t# highlighter",
+    "publisher": "赤紫",
     "description": "Function for highlighting T#.",
     "version": "0.0.1",
     "engines": {
