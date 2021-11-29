@@ -18,9 +18,6 @@
 			"include": "#boolean"
 		},
 		{
-			"include": "#values"
-		},
-		{
 			"include": "#comments"
 		},
 		{
