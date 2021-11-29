@@ -2,11 +2,17 @@
     "name": "tsharplanguage-color",
     "displayName": "t# highlighter",
     "publisher": "akamurasaki",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/poyuaki/tsharplanguage-color"
+    },
+    "icon": "img/tsharp_logo.png",
     "description": "Function for highlighting T#.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.58.0"
     },
+    "license": "No License",
     "categories": [
         "Programming Languages"
     ],
