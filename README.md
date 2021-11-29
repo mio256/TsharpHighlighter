@@ -9,4 +9,11 @@ T# is the programming language made by <a href="https://github.com/ibukiyoshidaa
 # Version
 
 ## 0.0.1
-test version.
+
+-test version.
+
+## 0.0.2
+
+- Added icon.
+- Added repository.
+- Added license.
