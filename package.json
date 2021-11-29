@@ -1,7 +1,7 @@
 {
     "name": "tsharplanguage-color",
-    "displayName": "tsharplanguage_color",
-    "description": "tsharp language highlight",
+    "displayName": "t# highlighter",
+    "description": "Function for highlighting T#.",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.62.0"
@@ -12,7 +12,7 @@
     "contributes": {
         "languages": [{
             "id": "tsharp",
-            "aliases": ["tsharp", "tsharp"],
+            "aliases": ["t#", "t#"],
             "extensions": [".t#"],
             "configuration": "./language-configuration.json"
         }],
