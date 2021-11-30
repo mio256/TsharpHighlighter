@@ -4,7 +4,7 @@
 
 > T# is a Stack-based programming language designed for building software. It's similar to Porth and Forth.
 
-T# is a programming language made by <a href="https://github.com/ibukiyoshidaa">Ibuki Yoshida</a>, a Japanese student. This extension is a highlighter supporting to T#.
+T# is a programming language made by <a href="https://github.com/ibukiyoshidaa">Ibuki Yoshida</a>, a Japanese student. This extension is a highlighter supporting T#.
 
 # Documents
 
