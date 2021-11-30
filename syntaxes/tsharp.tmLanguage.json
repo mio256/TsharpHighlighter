@@ -22,6 +22,9 @@
 		},
 		{
 			"include": "#operators"
+		},
+		{
+			"include": "#types"
 		}
 	],
 	"repository": {
@@ -70,6 +73,12 @@
 			"patterns": [{
 				"name": "variable.language.tsharp",
 				"match": "\\b(push|drop|exit|print|swap)\\b"
+			}]
+		},
+		"types": {
+			"patterns": [{
+				"name": "storage.type.tsharp",
+				"match": "\\b(int|bool|string|type)\\b"
 			}]
 		}
 	},
