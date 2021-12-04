@@ -6,8 +6,8 @@
         "type": "git",
         "url": "https://github.com/poyuaki/tsharplanguage-color"
     },
-    "icon": "img/tsharp_logo.png",
-    "description": "Function for highlighting T#.",
+    "icon": "img/tsharp_logo.PNG",
+    "description": "highlighter for T#.",
     "version": "0.0.3",
     "engines": {
         "vscode": "^1.58.0"
