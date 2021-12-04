@@ -1,6 +1,6 @@
 {
     "name": "tsharplanguage-color",
-    "displayName": "t# highlighter",
+    "displayName": "T# highlighter",
     "publisher": "akamurasaki",
     "repository": {
         "type": "git",
@@ -8,7 +8,7 @@
     },
     "icon": "img/tsharp_logo.PNG",
     "description": "highlighter for T#.",
-    "version": "0.0.5",
+    "version": "0.1.0",
     "engines": {
         "vscode": "^1.58.0"
     },
