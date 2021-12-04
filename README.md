@@ -1,6 +1,6 @@
 # T# highlighter README
 
-# What's T# highlighter?
+# What is T# highlighter?
 
 > T# is a Stack-based programming language designed for building software. It's similar to Porth and Forth.
 
@@ -36,3 +36,9 @@ T# is a programming language made by <a href="https://github.com/ibukiyoshidaa">
 ## 0.0.5
 
 - Changed repository's url
+
+## 0.1.0
+
+- Added snippets!!
+- Changed some keyword's types
+- Added new keywords
