@@ -31,7 +31,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.tsharp",
-				"match": "\\b(if|do|for|end|else)\\b"
+				"match": "\\b(if|do|for|end|else|break)\\b"
 			}]
 		},
 		"functions": {
@@ -71,14 +71,14 @@
 		},
 		"operators": {
 			"patterns": [{
-				"name": "variable.language.tsharp",
-				"match": "\\b(push|drop|exit|print|swap)\\b"
+				"name": "entity.tag.tsharp",
+				"match": "\\b(push|drop|exit|print|swap|inc|dec|over|rot|typeof|import)\\b"
 			}]
 		},
 		"types": {
 			"patterns": [{
-				"name": "storage.type.tsharp",
-				"match": "\\b(int|bool|string|type)\\b"
+				"name": "entity.type.tsharp",
+				"match": "\\b(int|bool|string)\\b"
 			}]
 		}
 	},
