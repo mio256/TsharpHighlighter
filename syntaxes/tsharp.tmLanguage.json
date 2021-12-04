@@ -71,13 +71,13 @@
 		},
 		"operators": {
 			"patterns": [{
-				"name": "entity.tag.tsharp",
+				"name": "entity.name.tag.tsharp",
 				"match": "\\b(push|drop|exit|print|swap|inc|dec|over|rot|typeof|import)\\b"
 			}]
 		},
 		"types": {
 			"patterns": [{
-				"name": "entity.type.tsharp",
+				"name": "entity.name.type.tsharp",
 				"match": "\\b(int|bool|string)\\b"
 			}]
 		}

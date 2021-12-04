@@ -36,6 +36,13 @@
                 "scopeName": "source.tsharp",
                 "path": "./syntaxes/tsharp.tmLanguage.json"
             }
+        ],
+        "snippets": [
+            {
+                "language": "tsharp",
+                "scopeName": "source.tsharp",
+                "path": "./snippets/tsharp.json"
+            }
         ]
     },
     "dependencies": {}
