@@ -4,7 +4,7 @@
     "publisher": "akamurasaki",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Tsharp-lang/tsharplanguage-color"
+        "url": "https://github.com/Tsharp-lang/TsharpHighlighter"
     },
     "icon": "img/tsharp_logo.PNG",
     "description": "highlighter for T#.",
