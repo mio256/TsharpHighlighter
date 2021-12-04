@@ -16,19 +16,23 @@ T# is a programming language made by <a href="https://github.com/ibukiyoshidaa">
 
 ## 0.0.1
 
-- test version.
+- test version
 
 ## 0.0.2
 
-- Added icon.
-- Added repository.
-- Added license.
+- Added icon
+- Added repository
+- Added license
 
 ## 0.0.3
 
-- Added new type.
+- Added new type
 
 ## 0.0.4
 
 - Changed repository
 - Changed icon
+
+## 0.0.5
+
+- Changed repository's url
