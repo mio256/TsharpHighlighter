@@ -31,3 +31,4 @@ T# is a programming language made by <a href="https://github.com/ibukiyoshidaa">
 ## 0.0.4
 
 - Changed repository
+- Changed icon
