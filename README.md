@@ -1,5 +1,7 @@
 # T# highlighter README
 
+<a href="https://marketplace.visualstudio.com/items?itemName=akamurasaki.tsharplanguage-color">Download</a>
+
 # What is T# highlighter?
 
 > T# is a Stack-based programming language designed for building software. It's similar to Porth and Forth.
