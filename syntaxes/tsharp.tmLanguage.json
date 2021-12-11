@@ -72,7 +72,7 @@
 		"operators": {
 			"patterns": [{
 				"name": "entity.name.tag.tsharp",
-				"match": "\\b(dup|push|drop|exit|print|swap|inc|dec|over|rot|typeof|import)\\b"
+				"match": "\\b(dup|push|drop|exit|print|swap|inc|dec|over|rot|typeof|import|append|puts|input)\\b"
 			}]
 		},
 		"types": {

@@ -43,5 +43,30 @@
     "prefix": "rot",
     "body": ["rot"],
     "description": "Rotate the top three values on the stack. e.x. [a, b, c] -> [c, a, b]."
+  },
+  "typeof": {
+    "prefix": "typeof",
+    "body": ["typeof"],
+    "description": "Returns the type of the top value on the stack."
+  },
+  "input": {
+    "prefix": "input",
+    "body": ["input"],
+    "description": "Reads a line of text from the user."
+  },
+  "puts": {
+    "prefix": "puts",
+    "body": ["puts"],
+    "description": "Prints the top value on the stack. However, no line breaks will be used."
+  },
+  "print": {
+    "prefix": "print",
+    "body": ["print"],
+    "description": "Prints the top value on the stack. A line break will be used."
+  },
+  "append": {
+    "prefix": "append",
+    "body": ["append"],
+    "description": "Adds a value to the end of the list."
   }
 }
