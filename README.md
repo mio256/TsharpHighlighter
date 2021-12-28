@@ -48,3 +48,8 @@ T# is a programming language made by <a href="https://github.com/ibukiyoshidaa">
 ## 0.2.0
 
 - Added new keywords
+
+## 0.2.1
+
+- Added new keywords
+- Added new snipets

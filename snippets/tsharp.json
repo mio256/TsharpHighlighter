@@ -46,7 +46,7 @@
   },
   "typeof": {
     "prefix": "typeof",
-    "body": ["typeof"],
+    "body": ["${1:value} typeof"],
     "description": "Returns the type of the top value on the stack."
   },
   "input": {
@@ -66,7 +66,22 @@
   },
   "append": {
     "prefix": "append",
-    "body": ["append"],
+    "body": ["${1:value} append"],
     "description": "Adds a value to the end of the list."
+  },
+  "replace": {
+    "prefix": "replace",
+    "body": ["${1:value} ${2:index} replace"],
+    "description": "replace list index to value."
+  },
+  "printS": {
+    "prefix": "printS",
+    "body": ["printS"],
+    "description": "print all stack values."
+  },
+  "printV": {
+    "prefix": "printV",
+    "body": ["printV"],
+    "description": "print all variables."
   }
 }
