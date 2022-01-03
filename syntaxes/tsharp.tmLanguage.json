@@ -31,7 +31,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.tsharp",
-				"match": "\\b(if|do|for|end|else|break|try|except)\\b"
+				"match": "\\b(if|elif|else|for|break|try|except|do|end)\\b"
 			}]
 		},
 		"functions": {
