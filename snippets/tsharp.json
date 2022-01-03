@@ -1,9 +1,21 @@
 {
-  "push": {
-    "prefix": "push",
-    "body": ["push ${1:val}"],
-    "description": "Pushes a value onto the stack."
+  "import": {
+    "prefix": "import",
+    "body": ["import ${1:file}"],
+    "description": "Imports a file."
   },
+
+  "inc": {
+    "prefix": "inc",
+    "body": ["inc"],
+    "description": "Increment the top value on the stack. "
+  },
+  "dec": {
+    "prefix": "dec",
+    "body": ["dec"],
+    "description": "Decrement the top value on the stack. "
+  },
+
   "dup": {
     "prefix": "dup",
     "body": ["dup"],
@@ -14,25 +26,10 @@
     "body": ["swap"],
     "description": "Swap the value at the top of the stack with the one below it."
   },
-  "block": {
-    "prefix": "block",
-    "body": ["block ${1:name} do"],
-    "description": "Creates a new block.The term block here has the same meaning as function."
-  },
   "drop": {
     "prefix": "drop",
     "body": ["drop"],
     "description": "Removes the top value from the stack."
-  },
-  "exit": {
-    "prefix": "exit",
-    "body": ["exit"],
-    "description": "Exit the program."
-  },
-  "import": {
-    "prefix": "import",
-    "body": ["import ${1:file}"],
-    "description": "Imports a file."
   },
   "over": {
     "prefix": "over",
@@ -44,16 +41,13 @@
     "body": ["rot"],
     "description": "Rotate the top three values on the stack. e.x. [a, b, c] -> [c, a, b]."
   },
-  "typeof": {
-    "prefix": "typeof",
-    "body": ["${1:value} typeof"],
-    "description": "Returns the type of the top value on the stack."
-  },
+
   "input": {
     "prefix": "input",
     "body": ["input"],
     "description": "Reads a line of text from the user."
   },
+
   "puts": {
     "prefix": "puts",
     "body": ["puts"],
@@ -64,6 +58,33 @@
     "body": ["print"],
     "description": "Prints the top value on the stack. A line break will be used."
   },
+
+  "int": {
+    "prefix": "int",
+    "body": ["int"],
+    "description": "Integer"
+  },
+  "string": {
+    "prefix": "string",
+    "body": ["string"],
+    "description": "String"
+  },
+  "bool": {
+    "prefix": "bool",
+    "body": ["bool"],
+    "description": "Bool"
+  },
+  "type": {
+    "prefix": "type",
+    "body": ["type"],
+    "description": "Type"
+  },
+  "typeof": {
+    "prefix": "typeof",
+    "body": ["${1:value} typeof"],
+    "description": "Returns the type of the top value on the stack."
+  },
+
   "append": {
     "prefix": "append",
     "body": ["${1:value} append"],
@@ -74,6 +95,18 @@
     "body": ["${1:value} ${2:index} replace"],
     "description": "replace list index to value."
   },
+  "len": {
+    "prefix": "len",
+    "body": ["${1:value} len"],
+    "description": "push the length of the list."
+  },
+
+  "exit": {
+    "prefix": "exit",
+    "body": ["exit"],
+    "description": "Exit the program."
+  },
+
   "printS": {
     "prefix": "printS",
     "body": ["printS"],
