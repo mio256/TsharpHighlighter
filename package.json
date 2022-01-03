@@ -22,11 +22,11 @@
             {
                 "id": "tsharp",
                 "aliases": [
-                    "t#",
-                    "t#"
+                    "tsp",
+                    "tsp"
                 ],
                 "extensions": [
-                    ".t#"
+                    ".tsp"
                 ],
                 "configuration": "./language-configuration.json"
             }
